@@ -1,0 +1,163 @@
+.sectionContainer {
+    background-image: url(/src/components/assets/backgroundImage.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 85.5vh;
+    min-height: 600px;
+    max-height: 665px;
+    position: relative;
+    border-bottom: 5px solid black;
+    margin: 0;
+}
+
+.mainContainer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nameContainer {
+    margin-bottom: 30px;
+    background-color: #272A31;
+    width: 400px;
+    height: 130px;
+    box-shadow: 6px 6px 0px #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nameContainer p {
+    text-shadow: 4px 4px 0px #000000;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 13px;
+    margin-top: 10px;
+}
+
+.name {
+    color: #F6DB1A;
+}
+
+.descriptionArea {
+    color: #fff;
+}
+
+.containerbuttons {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerbuttons button {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 500;
+    font-size: 8px;
+    cursor: pointer;
+    background-color: #F6DB1A;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    box-shadow: 4px 4px 0px #000000;
+    transition: all .4s;
+}
+.containerbuttons button:hover{
+    scale: 1.1;
+} 
+
+.imageContaienr {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 220px;
+    height: 284px;
+    transition: all .4s;
+}
+.imageContaienr:hover{
+    scale: 1.1;
+}
+
+.avatar{
+    position: absolute;
+    transition: all .4s;
+}
+
+
+.divBackgroundAvatartransparent {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+}
+
+.divBackgroundAvatarwhite {
+    width: 100%;
+    height: calc(100% - 40px);
+    background-color: #FFF;
+    box-shadow: 4px 4px 0px #000000;
+}
+
+@media (max-width: 840px) {
+    .mainContainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content {
+        margin-top: 60px;
+    }
+    .imageContaienr {
+        width: 180px;
+        height: 244px;
+    }
+    .avatar{
+        height: 244px;
+    }
+}
+
+@media (max-width: 490px) {
+    .nameContainer {
+        width: 310px;
+    }
+    .nameContainer p {
+        font-size: 16px;
+    }
+    .imageContaienr {
+        width: 140px;
+        height: 204px;
+    }
+    .avatar{
+        height: 204px;
+    }
+}
+@media (max-width: 390px) {
+    .nameContainer {
+        width: 290px;
+    }
+    .nameContainer p {
+        font-size: 15px;
+    }
+    .imageContaienr {
+        width: 130px;
+        height: 194px;
+    }
+    .avatar{
+        height: 194px;
+    }
+    .containerbuttons button {
+        width: 90px;
+    }
+}

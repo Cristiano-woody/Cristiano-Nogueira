@@ -1,0 +1,77 @@
+.container{
+    width: 330px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.imgcard{
+    width: 100%;
+}
+.containerImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+.titleCard{
+    margin-top: 8px;
+    font-family: 'Press Start 2P', cursive;
+    color: #FFF;
+}
+.content{
+    margin-left: 15px;
+    width: 280px;
+    height: 100%;
+}
+.containerPercent{
+    width: 230px;
+    height: 25px;
+    margin-top: 15px;
+    border: 5px solid black;
+    background-color: white;
+}
+.percent{
+    width: 50%;
+    height: 100%;
+    background-color: #3F4583;
+}
+
+
+@media (max-width: 1110px){
+    .container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:840px){
+    .containerPercent{
+        width: 170px;
+        height: 15px;
+        
+    }
+    .content{
+        width: 220px;
+    }
+    .container{
+        width: 255px;
+        height: 65px;
+    }
+}
+@media (max-width:620px){
+    .containerPercent{
+        width: 180px;
+        height: 18px;
+        
+    }
+    .content{
+        width: 230px;
+    }
+    .container{
+        width: 265px;
+        height: 65px;
+        margin-bottom: 30px;
+    }
+}

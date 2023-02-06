@@ -1,0 +1,57 @@
+.containerAbout{
+    width: 100%;
+    height: auto;
+    background-color: #2F324A;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid black;
+}
+.content{
+    height: 50%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.containerTextAbout{
+    width: 80%;
+    margin-top: 30px;
+}
+.titleAbout{
+    text-shadow: 4px 4px 0px #000000;
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+}
+.aboutText{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Fira Code', monospace;
+}
+@media (max-width: 840px) {
+    .titleAbout{
+        color: #FFF;
+        font-size: 22px;
+        font-family: 'Press Start 2P', cursive;
+    }
+    .aboutText{
+        color: #ffffff;
+        font-size: 17px;
+        font-family: 'Fira Code', monospace;
+    }
+}
+
+@media (max-width: 620px) {
+    .titleAbout{
+        color: #FFF;
+        font-size: 20px;
+        font-family: 'Press Start 2P', cursive;
+    }
+    .aboutText{
+        color: #ffffff;
+        font-size: 15px;
+        font-family: 'Fira Code', monospace;
+    }
+
+}
