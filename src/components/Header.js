@@ -15,10 +15,10 @@ const Header = () => {
             </div>
             <nav className={Styles.navigation}>
                 <div className={Styles.containerLinksnav}>
-                    <a href='#containerAbout'>Sobre</a>
-                    <a href='#containerSkills'>Skills</a>
-                    <a href='#'>Projetos</a>
-                    <a href='#'>Contatos</a>
+                    <a href='#About'>Sobre</a>
+                    <a href='#Skills'>Skills</a>
+                    <a href='#Projects'>Projetos</a>
+                    <a href='#Contacts'>Contatos</a>
                 </div>
                 <button onClick={() => openPopUp()} className={Styles.buttonNavMobile}>
                     <span className={Styles.hamburguer}></span>

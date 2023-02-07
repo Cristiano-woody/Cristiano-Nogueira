@@ -10,7 +10,7 @@ import IconGit from './assets/ico_git.png'
 
 function Skills() {
     return (
-        <div id='containerSkills' className={Styles.container}>
+        <div id='Skills' className={Styles.container}>
             <div className={Styles.content}>
                 <div className={Styles.containerTitle}>
                     <h1 className={Styles.titleSkils}>Skills</h1>

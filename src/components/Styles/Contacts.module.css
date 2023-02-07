@@ -1,0 +1,87 @@
+.Container{
+    width: 100%;
+    height: 200px;
+    background-color: #8E9AAD;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Container h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 4px 4px 0px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.Content{
+    width: 80%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Gitgub{
+    opacity: 70%;
+    cursor: pointer;
+    background-image: url('../assets/github.png');
+    background-position: center;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: all .4s;
+}
+.LinkedIn{
+    opacity: 70%;
+    cursor: pointer;
+    background-image: url('../assets/libkdin.png');
+    background-position: center;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: all .4s;
+}
+.Email{
+    opacity: 70%;
+    cursor: pointer;
+    background-image: url('../assets/email.png');
+    background-position: center;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: all .4s;
+}
+
+@media (max-width: 560px){
+    .Gitgub{
+        width: 60px;
+        height: 60px;
+    }
+    .Email{
+        width: 60px;
+        height: 60px;
+    }
+    .LinkedIn{
+        width: 60px;
+        height: 60px;
+    }
+
+    .Container h1{
+        font-size: 20px;
+    }
+
+}

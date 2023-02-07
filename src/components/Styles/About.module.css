@@ -1,4 +1,5 @@
 .containerAbout{
+    padding-top: 4vh;
     width: 100%;
     height: auto;
     background-color: #2F324A;
@@ -16,9 +17,12 @@
 }
 .containerTextAbout{
     width: 80%;
+    max-width: 1480px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .titleAbout{
+    margin-bottom: 0px;
     text-shadow: 4px 4px 0px #000000;
     color: #FFF;
     font-size: 25px;
@@ -42,7 +46,7 @@
     }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 560px) {
     .titleAbout{
         color: #FFF;
         font-size: 20px;

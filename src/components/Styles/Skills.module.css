@@ -1,4 +1,5 @@
 .container {
+    padding-top: 4vh;
     width: 100%;
     background-color: #1F1F1F;
     border-bottom: 5px solid black;
@@ -28,6 +29,7 @@
     display: flex;
     flex-direction: row;
     width: 65%;
+    max-width: 1280px;
     justify-content: space-between;
 }
 
@@ -37,6 +39,7 @@
     display: flex;
     flex-direction: row;
     width: 65%;
+    max-width: 1280px;
     justify-content: space-between;
 }
 
@@ -46,10 +49,11 @@
     display: flex;
     flex-direction: row;
     width: 65%;
+    max-width: 1280px;
     justify-content: space-between;
 }
 
-@media (max-width: 1110px) {
+@media (max-width: 1060px) {
     .containerCards1 {
         width: auto;
     }
@@ -63,7 +67,7 @@
     }
 }
 
-@media (max-width:620px){
+@media (max-width:560px){
     .titleSkils{
         font-size: 22px;
     }

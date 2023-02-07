@@ -5,6 +5,7 @@ import PopUpMenu from './components/PopUpMenu';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Contacts from './components/Contacts';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
       </section>
       <section>
         <Projects/>
+      </section>
+      <section>
+        <Contacts/>
       </section>
     </div>
   );

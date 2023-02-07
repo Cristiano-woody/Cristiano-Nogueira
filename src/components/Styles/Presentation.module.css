@@ -1,15 +1,17 @@
 .sectionContainer {
+    margin: 0;
     background-image: url(/src/components/assets/backgroundImage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 85.5vh;
     min-height: 600px;
-    max-height: 665px;
     position: relative;
     border-bottom: 5px solid black;
-    margin: 0;
 }
 
 .mainContainer {

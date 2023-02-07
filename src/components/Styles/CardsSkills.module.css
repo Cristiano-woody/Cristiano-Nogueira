@@ -5,25 +5,31 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    transition: all .5s;
 }
 .imgcard{
     width: 100%;
+    transition: all .5s;
 }
 .containerImage{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 70px;
+    transition: all .5s;
 }
 .titleCard{
     margin-top: 8px;
     font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
     color: #FFF;
+    transition: all .5s;
 }
 .content{
     margin-left: 15px;
     width: 280px;
     height: 100%;
+    transition: all .5s;
 }
 .containerPercent{
     width: 230px;
@@ -31,47 +37,50 @@
     margin-top: 15px;
     border: 5px solid black;
     background-color: white;
+    transition: all .5s;
 }
 .percent{
-    width: 50%;
+    width: 60%;
     height: 100%;
     background-color: #3F4583;
+    transition: all .5s;
 }
 
 
-@media (max-width: 1110px){
+@media (max-width: 1060px){
     .container{
         margin-left: 20px;
         margin-right: 20px;
     }
 }
 
-@media (max-width:840px){
+@media (max-width: 762px){
     .containerPercent{
-        width: 170px;
-        height: 15px;
+        width: 150px;
+        height: 17px;
         
     }
     .content{
-        width: 220px;
+        width: 200px;
     }
     .container{
-        width: 255px;
+        width: 235px;
         height: 65px;
+    }
+    .titleCard{
+        font-size: 12px;
     }
 }
-@media (max-width:620px){
+@media (max-width:560px){
+    .container{
+        width: 300px;
+        margin-bottom: 50px;
+    }
     .containerPercent{
-        width: 180px;
-        height: 18px;
-        
+        width: 200px;
+        height: 20px;
     }
     .content{
-        width: 230px;
-    }
-    .container{
-        width: 265px;
-        height: 65px;
-        margin-bottom: 30px;
+        width: 250px;
     }
 }
