@@ -12,13 +12,13 @@ function Projects() {
             <div className={Styles.containercardsglobal}>
                 <div className={Styles.containercards1}>
                     <CardsProjects title='Portifólio' imgbackground={ProjectPortifolio} />
-                    <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} />
-                    <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} />
+                    {/* <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} /> */}
+                   {/* <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} /> */}
                 </div>
                 <div className={Styles.containercards2}>
-                    <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} />
-                    <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} />
-                    <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} />
+                   {/* <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} />*/}
+                   {/* <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} />*/}
+                   {/* <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} />*/}
                 </div>
             </div>
         </div>
