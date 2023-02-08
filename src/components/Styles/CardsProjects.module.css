@@ -94,11 +94,11 @@
     left: 0;
     z-index: 10;
     background-color: rgba(0,0,0, 0.6);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     transition: all .4s;
-    z-index: 1;
+    z-index: 100;
     visibility: visible;
 }
 
@@ -151,18 +151,22 @@
 
 .buttonPopup{
     color: #FFF;
-    box-shadow: 2px 2px 0px black;
+    box-shadow: 3px 3px 0px black;
     background-color: #323232;
     margin: 15px 15px 15px 10px;
     padding: 5px 10px;
+    border: 0;
 }
 .buttonClose{
-    width: 25px;
-    height: 25px;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
     border: 0;
     border-top: 20px;
     border-right: 5px;
     background-position: center;
     background-size: cover;
     background-color: transparent;
+    margin-top: 5px;
+    margin-right: 5px;
 }
