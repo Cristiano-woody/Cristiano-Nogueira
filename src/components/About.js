@@ -7,7 +7,7 @@ function About() {
                 <h1 className={Styles.titleAbout}>Sobre</h1>
                 <div className={Styles.containerTextAbout}>
                     <p className={Styles.aboutText}>
-                        Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
+                        Olá! Me chamo Cristiano Nogueira, desenvolvedor Front-End. Sou um jovem entusiasta da tecnologia e que achou nela a oportunidade de criar sistemas e soluções enquanto se diverte. Estou no terceiro período do curso de Ciência da computação onde estou aprendendo outras tecnologias como: React Native e Node.js. Atualmente estou estagiando na unidade de sistemas e aplicativos da secretaria de defesa social do estado de pernambuco(SDS-PE). Onde com React.js desenvolvo aplicações e faço manutenção nos sistemas já existentes. Procuro sempre estar atualizado e seguir as boas práticas de programação e melhorar cada vez mais minhas hard skills e soft skills.
                     </p>
                 </div>
             </div>

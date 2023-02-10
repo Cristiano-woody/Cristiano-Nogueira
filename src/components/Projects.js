@@ -16,6 +16,7 @@ function Projects() {
                         title='Portifólio'
                         imgbackground={ProjectPortifolio}
                         urlRepositoryprop = 'https://github.com/Cristiano-woody/Cristiano-Nogueira'
+                        urlacessprop='https://cristiano-woody.github.io/Cristiano-Nogueira/'
                     />
                     <CardsProjects
                         textDescriptionprop='Projeto em construção.'
