@@ -62,6 +62,7 @@
 }
 
 .buttonPopup{
+    cursor: pointer;
     color: #FFF;
     box-shadow: 3px 3px 0px black;
     background-color: #323232;

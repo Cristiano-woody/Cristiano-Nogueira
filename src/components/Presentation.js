@@ -1,5 +1,6 @@
 import Styles from './Styles/Presentation.module.css'
 import Avatar from './assets/iconAvatar.png'
+import CV from './assets/1CRIS.CURRICULO.pdf'
 
 
 function Presentation() {

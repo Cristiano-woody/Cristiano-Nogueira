@@ -2,7 +2,7 @@ import React from "react"
 import buttonClose from './assets/CloseButton.png'
 import Styles from './Styles/PopUpProjectsCard.module.css'
 
-function PopUpCardsProjects({ClosePopUpProps,titlePopUp,imageIlustration,textDescription}){
+function PopUpCardsProjects({ClosePopUpProps,titlePopUp,imageIlustration,textDescription,urlRepository,urlacess}){
     return(
         <div id='PopupCardsProject' className={Styles.PopupCardsProject}>
                 <div className={Styles.container}>
@@ -15,8 +15,8 @@ function PopUpCardsProjects({ClosePopUpProps,titlePopUp,imageIlustration,textDes
                             <p>{textDescription}</p>
                         </div>
                         <div>
-                            <button className={Styles.buttonPopup}>Acessar</button>
-                            <button className={Styles.buttonPopup}>Repositório</button>
+                            <button onClick={() => window.open(urlacess)} className={Styles.buttonPopup}>Acessar</button>
+                            <button onClick={()=> window.open(urlRepository)} className={Styles.buttonPopup}>Repositório</button>
                         </div>
                     </div>
                 </div>

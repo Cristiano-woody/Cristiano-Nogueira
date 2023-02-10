@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Styles from './Styles/CardsProjects.module.css'
 import PopUpCardsProjects from './PopUpCardsProjects'
 
-function CardsProjects({ imgbackground, title, textDescriptionprop }) {
+function CardsProjects({ imgbackground, title, textDescriptionprop, urlRepositoryprop, urlacessprop}) {
     function OpenPopUpCard() {
         setmodalIsVisible(true);
     }
@@ -12,8 +12,6 @@ function CardsProjects({ imgbackground, title, textDescriptionprop }) {
     }
 
     const [modalIsVisible, setmodalIsVisible] = useState(false);
-
-    const textDescription = textDescriptionprop;
 
     return (
         <div>
@@ -27,7 +25,9 @@ function CardsProjects({ imgbackground, title, textDescriptionprop }) {
                     ClosePopUpProps={() => ClosePopUpCard()}
                     titlePopUp={title}
                     imageIlustration={imgbackground}
-                    textDescription={textDescription}
+                    textDescription={textDescriptionprop}
+                    urlRepository = {urlRepositoryprop}
+                    urlacess = {urlacessprop}
                 />
             ) : null}
 

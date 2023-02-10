@@ -15,28 +15,32 @@ function Projects() {
                         textDescriptionprop='um texto qualquer sobre portifólio'
                         title='Portifólio'
                         imgbackground={ProjectPortifolio}
+                        urlRepositoryprop = 'https://github.com/Cristiano-woody/Cristiano-Nogueira'
                     />
                     <CardsProjects
-                        textDescriptionprop='um texto sobre em construção'
+                        textDescriptionprop='Projeto em construção.'
                         title='em construção'
                         imgbackground={PaginaEmConstrucao}
                     />
                     <CardsProjects
-                        textDescriptionprop='um texto sobre em construção'
+                        textDescriptionprop='Projeto em construção.'
                         title='em construção'
                         imgbackground={PaginaEmConstrucao}
                     />
                 </div>
                 <div className={Styles.containercards2}>
                     <CardsProjects
+                        textDescriptionprop='Projeto em construção.'
                         title='em construção'
                         imgbackground={PaginaEmConstrucao}
                     />
                     <CardsProjects
+                        textDescriptionprop='Projeto em construção.'
                         title='em construção'
                         imgbackground={PaginaEmConstrucao}
                     />
                     <CardsProjects
+                        textDescriptionprop='Projeto em construção.'
                         title='em construção'
                         imgbackground={PaginaEmConstrucao}
                     />
