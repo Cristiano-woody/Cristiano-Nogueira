@@ -11,14 +11,35 @@ function Projects() {
             </div>
             <div className={Styles.containercardsglobal}>
                 <div className={Styles.containercards1}>
-                    <CardsProjects identification ='portifolio' title='Portifólio' imgbackground={ProjectPortifolio} />
-                    <CardsProjects identification = 'Production' title='em construção' imgbackground={PaginaEmConstrucao} />
-                    <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} />
+                    <CardsProjects
+                        textDescriptionprop='um texto qualquer sobre portifólio'
+                        title='Portifólio'
+                        imgbackground={ProjectPortifolio}
+                    />
+                    <CardsProjects
+                        textDescriptionprop='um texto sobre em construção'
+                        title='em construção'
+                        imgbackground={PaginaEmConstrucao}
+                    />
+                    <CardsProjects
+                        textDescriptionprop='um texto sobre em construção'
+                        title='em construção'
+                        imgbackground={PaginaEmConstrucao}
+                    />
                 </div>
                 <div className={Styles.containercards2}>
-                   <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} />
-                   <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} />
-                   <CardsProjects title='em construção' imgbackground={PaginaEmConstrucao} />
+                    <CardsProjects
+                        title='em construção'
+                        imgbackground={PaginaEmConstrucao}
+                    />
+                    <CardsProjects
+                        title='em construção'
+                        imgbackground={PaginaEmConstrucao}
+                    />
+                    <CardsProjects
+                        title='em construção'
+                        imgbackground={PaginaEmConstrucao}
+                    />
                 </div>
             </div>
         </div>

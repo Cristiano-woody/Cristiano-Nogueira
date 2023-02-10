@@ -1,12 +1,17 @@
 import Styles from './Styles/Header.module.css'
 import LogoIcon from './assets/LogoIcon.png'
+import { useState } from 'react';
+import PopUpMenu from './PopUpMenu';
 
 const Header = () => {
+    
+    const [openPopUpMenu, setopenPopUpMenu] = useState(false);
+
     function openPopUp() {
-        const displayPopUp = document.getElementById('popUp');
-        displayPopUp.style.opacity = '100%';
-        displayPopUp.style.visibility = 'visible';
-        displayPopUp.style.zIndex = '1000';
+        setopenPopUpMenu(true);
+    }
+    function closePopUp() {
+        setopenPopUpMenu(false);
     }
     return (
         <div id="header" className={Styles.Header}>
@@ -24,6 +29,9 @@ const Header = () => {
                     <span className={Styles.hamburguer}></span>
                 </button>
             </nav>
+            {openPopUpMenu ? (
+                <PopUpMenu closePopUp={() => closePopUp()} />
+            ) : null}
         </div>
     )
 }
