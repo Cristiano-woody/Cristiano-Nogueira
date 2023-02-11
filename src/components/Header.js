@@ -4,7 +4,7 @@ import { useState } from 'react';
 import PopUpMenu from './PopUpMenu';
 
 const Header = () => {
-    
+
     const [openPopUpMenu, setopenPopUpMenu] = useState(false);
 
     function openPopUp() {
