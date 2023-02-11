@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     z-index: 10;
-    background-color: rgba(0,0,0, 0.6);
+    background-color: rgba(0,0,0, 0.8);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,9 +14,8 @@
 }
 
 .container{
-    box-shadow: 4px 4px 0px #FFF;
+    box-shadow: 4px 4px 0px #000000;
     background-color: #1F1F1F;
-    color: black;
     width: 600px;
     display: flex;
     align-items: center;
@@ -45,8 +44,9 @@
     
 }
 
-.content h1{
-    color: #FFF;
+.Title{
+    color: #F6DB1A;
+    font-weight: 600;
     margin-left: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -63,12 +63,14 @@
 
 .buttonPopup{
     cursor: pointer;
-    color: #FFF;
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+    color: #000;
     box-shadow: 3px 3px 0px black;
-    background-color: #323232;
+    background-color: #F6DB1A;
     margin: 15px 15px 15px 10px;
     padding: 5px 10px;
-    border: 0;
+    border: none;
 }
 .buttonClose{
     cursor: pointer;
@@ -82,4 +84,37 @@
     background-color: transparent;
     margin-top: 5px;
     margin-right: 5px;
+}
+
+@media (max-width: 762px){
+    .container{
+        width: 500px;
+    }
+    .imgPopup{
+        height: 250px;
+    }
+}
+@media (max-width: 560px){
+    .container{
+        width: 400px;
+    }
+    .imgPopup{
+        height: 200px;
+    }
+}
+@media (max-width: 440px){
+    .container{
+        width: 350px;
+    }
+    .imgPopup{
+        height: 175px;
+    }
+}
+@media (max-width: 380px){
+    .container{
+        width: 300px;
+    }
+    .imgPopup{
+        height: 150px;
+    }
 }

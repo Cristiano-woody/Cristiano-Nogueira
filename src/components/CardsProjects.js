@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Styles from './Styles/CardsProjects.module.css'
 import PopUpCardsProjects from './PopUpCardsProjects'
 
-function CardsProjects({ imgbackground, title, textDescriptionprop, urlRepositoryprop, urlacessprop}) {
+function CardsProjects({ imgbackground, title, textDescriptionprop, urlRepositoryprop, urlacessprop, secondTitlePopUpprop, usedtoolsprop}) {
     function OpenPopUpCard() {
         setmodalIsVisible(true);
     }
@@ -28,6 +28,8 @@ function CardsProjects({ imgbackground, title, textDescriptionprop, urlRepositor
                     textDescription={textDescriptionprop}
                     urlRepository = {urlRepositoryprop}
                     urlacess = {urlacessprop}
+                    secondTitlePopUp = {secondTitlePopUpprop}
+                    usedtools = {usedtoolsprop}
                 />
             ) : null}
 

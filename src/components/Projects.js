@@ -12,10 +12,12 @@ function Projects() {
             <div className={Styles.containercardsglobal}>
                 <div className={Styles.containercards1}>
                     <CardsProjects
-                        textDescriptionprop='um texto qualquer sobre portifólio'
-                        title='Portifólio'
+                        title='Portfólio'
+                        secondTitlePopUpprop = ''
+                        textDescriptionprop='Portfólio desenvolvido com o intuito de divulgar meus projetos, contatos e skills.'
                         imgbackground={ProjectPortifolio}
-                        urlRepositoryprop = 'https://github.com/Cristiano-woody/Cristiano-Nogueira'
+                        usedtoolsprop ='React.js'
+                        urlRepositoryprop='https://github.com/Cristiano-woody/Cristiano-Nogueira'
                         urlacessprop='https://cristiano-woody.github.io/Cristiano-Nogueira/'
                     />
                     <CardsProjects

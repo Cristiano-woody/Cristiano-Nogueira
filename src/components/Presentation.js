@@ -13,7 +13,7 @@ function Presentation() {
                         <p className={Styles.descriptionArea}>FrontEnd Developer</p>
                     </div>
                     <div className={Styles.containerbuttons}>
-                        <button className={Styles.downloadCV}>Download CV</button>
+                        <button onClick={() => window.open(CV)} className={Styles.downloadCV}>Download CV</button>
                         <button className={Styles.contacts}>Contatos</button>
                     </div>
                 </div>
