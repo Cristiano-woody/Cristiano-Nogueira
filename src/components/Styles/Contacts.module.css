@@ -25,6 +25,9 @@
 }
 
 .Gitgub{
+    margin: 0;
+    padding: 0;
+    border: 0;
     opacity: 70%;
     cursor: pointer;
     background-image: url('../assets/github.png');
@@ -33,12 +36,12 @@
     width: 90px;
     height: 90px;
     background-color: transparent;
-    margin: 0;
-    padding: 0;
-    border: 0;
     transition: all .4s;
 }
 .LinkedIn{
+    margin: 0;
+    padding: 0;
+    border: 0;
     opacity: 70%;
     cursor: pointer;
     background-image: url('../assets/libkdin.png');
@@ -47,12 +50,12 @@
     width: 90px;
     height: 90px;
     background-color: transparent;
-    margin: 0;
-    padding: 0;
-    border: 0;
     transition: all .4s;
 }
 .Email{
+    margin: 0;
+    padding: 0;
+    border: 0;
     opacity: 70%;
     cursor: pointer;
     background-image: url('../assets/email.png');
@@ -61,9 +64,6 @@
     width: 90px;
     height: 90px;
     background-color: transparent;
-    margin: 0;
-    padding: 0;
-    border: 0;
     transition: all .4s;
 }
 

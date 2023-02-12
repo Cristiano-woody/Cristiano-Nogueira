@@ -84,3 +84,16 @@
         width: 250px;
     }
 }
+@media (max-width:360px){
+    .container{
+        width: 270px;
+        margin-bottom: 40px;
+    }
+    .containerPercent{
+        width: 190px;
+        height: 18px;
+    }
+    .content{
+        width: 250px;
+    }
+}

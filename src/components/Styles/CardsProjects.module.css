@@ -1,10 +1,10 @@
 .card {
     cursor: pointer;
+    border: 0;
     padding: 0;
     width: 330px;
     height: 200px;
     background-color: #323232;
-    border: 0;
     box-shadow: 4px 8px 0px #000;
     transition: all .5s;
 }
