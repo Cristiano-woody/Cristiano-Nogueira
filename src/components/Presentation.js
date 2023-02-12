@@ -1,6 +1,6 @@
 import Styles from './Styles/Presentation.module.css'
 import Avatar from './assets/iconAvatar.png'
-import CV from './assets/1CRIS.CURRICULO.pdf'
+import CV from './assets/Cristiano-Nogueira.pdf'
 
 
 function Presentation() {
@@ -14,7 +14,7 @@ function Presentation() {
                     </div>
                     <div className={Styles.containerbuttons}>
                         <button onClick={() => window.open(CV)} className={Styles.downloadCV}>Download CV</button>
-                        <button className={Styles.contacts}>Contatos</button>
+                        <button className={Styles.contacts}><a className={Styles.contactsButtonA} href='#Contacts'>contatos</a></button>
                     </div>
                 </div>
                 <div className={Styles.imageContaienr}>

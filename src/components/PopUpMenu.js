@@ -4,7 +4,6 @@ import CloseButton from './assets/CloseButton.png'
 function PopUpMenu({ closePopUp }) {
 
     const handleOutsideClick = (e) => {
-        if (e) e.preventDefault();
         if (e.target.id === 'popUp') {
             closePopUp()
         }
