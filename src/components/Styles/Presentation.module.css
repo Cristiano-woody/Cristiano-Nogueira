@@ -154,8 +154,11 @@
         width: 280px;
         box-shadow: 4px 4px 0px #000000;
     }
-    .nameContainer p {
-        font-size: 15px;
+    .nameContainer .name {
+        font-size: 17px;
+    }
+    .nameContainer .descriptionArea {
+        font-size: 13px;
     }
     .imageContaienr {
         width: 130px;
@@ -165,6 +168,6 @@
         height: 194px;
     }
     .containerbuttons button {
-        width: 95px;
+        width: 90px;
     }
 }

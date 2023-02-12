@@ -59,11 +59,11 @@
 @media (max-width: 762px) {
     .card {
         width: 255px;
-        height: 142px;
+        height: 153px;
     }
 
     .imgcontainer {
-        height: 142px;
+        height: 153px;
     }
 
     .imgcontainer span {
@@ -74,11 +74,25 @@
 @media (max-width: 560px) {
     .card {
         width: 280px;
-        height: 167px;
+        height: 168px;
     }
 
     .imgcontainer {
-        height: 167px;
+        height: 168px;
+    }
+
+    .imgcontainer span {
+        font-size: 20px;
+    }
+}
+@media (max-width: 360px) {
+    .card {
+        width: 260px;
+        height: 156px;
+    }
+
+    .imgcontainer {
+        height: 156px;
     }
 
     .imgcontainer span {

@@ -1,5 +1,5 @@
 .container{
-    width: 330px;
+    width: 320px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -32,7 +32,7 @@
     transition: all .5s;
 }
 .containerPercent{
-    width: 230px;
+    width: 100%;
     height: 25px;
     margin-top: 15px;
     border: 5px solid black;
@@ -55,17 +55,15 @@
 }
 
 @media (max-width: 762px){
-    .containerPercent{
-        width: 150px;
-        height: 17px;
-        
+    .container{
+        width: 235px;
+        height: 62.5px;
     }
     .content{
         width: 200px;
     }
-    .container{
-        width: 235px;
-        height: 65px;
+    .containerPercent{
+        height: 20px;
     }
     .titleCard{
         font-size: 12px;
@@ -74,26 +72,23 @@
 @media (max-width:560px){
     .container{
         width: 300px;
-        margin-bottom: 50px;
-    }
-    .containerPercent{
-        width: 200px;
-        height: 20px;
+        height: 75px;
+        margin-bottom: 40px;
     }
     .content{
-        width: 250px;
+        width: 252px;
     }
 }
 @media (max-width:360px){
     .container{
-        width: 270px;
+        width: 255px;
         margin-bottom: 40px;
     }
     .containerPercent{
-        width: 190px;
+        width: 175px;
         height: 18px;
     }
     .content{
-        width: 250px;
+        width: 213px;
     }
 }
