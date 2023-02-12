@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.250ccd2d.css",
-    "main.js": "./static/js/main.ab771578.js",
+    "main.css": "./static/css/main.decb84bb.css",
+    "main.js": "./static/js/main.42c2816a.js",
     "static/js/787.be55e6d0.chunk.js": "./static/js/787.be55e6d0.chunk.js",
     "static/media/ProjectPortifolio.png": "./static/media/ProjectPortifolio.d0058863aea8474ea7af.png",
     "static/media/backgroundImage.png": "./static/media/backgroundImage.c3d2ce1dafee310894b7.png",
-    "static/media/1CRIS.CURRICULO.pdf": "./static/media/1CRIS.CURRICULO.52094f4fb3fbcdc30130.pdf",
+    "static/media/Cristiano-Nogueira.pdf": "./static/media/Cristiano-Nogueira.f1b2c3f7b4704ddf4376.pdf",
     "static/media/iconAvatar.png": "./static/media/iconAvatar.ce689194a889b84aea70.png",
     "static/media/pagina_em_construcao.png": "./static/media/pagina_em_construcao.8c297323bc025aee9982.png",
     "index.html": "./index.html",
-    "main.250ccd2d.css.map": "./static/css/main.250ccd2d.css.map",
-    "main.ab771578.js.map": "./static/js/main.ab771578.js.map",
+    "main.decb84bb.css.map": "./static/css/main.decb84bb.css.map",
+    "main.42c2816a.js.map": "./static/js/main.42c2816a.js.map",
     "787.be55e6d0.chunk.js.map": "./static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.250ccd2d.css",
-    "static/js/main.ab771578.js"
+    "static/css/main.decb84bb.css",
+    "static/js/main.42c2816a.js"
   ]
 }
